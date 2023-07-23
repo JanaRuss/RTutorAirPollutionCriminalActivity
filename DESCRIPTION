@@ -1,0 +1,12 @@
+Package: RTutorAirPollCrime
+Type: Package
+Title: RTutor-AirPollutionCriminalActivity
+Version: 0.1
+Date: 2023-23-07
+Author: Jana Russ
+Maintainer: Jana Russ <jana.russ@uni-ulm.de>
+Description: RTutor problem set Air Pollution and Criminal Activity
+License: Not yet licensed by the author. The default suggestion for licensing is
+	Problem set content: Creative Commons (CC BY-SA)
+	Package code: GPL >= 2.0
+Depends: RTutor, dplyr, scales, kableExtra, ggplot2, sf, openair, sandwich, lmtest, ggdag, modelsummary, lfe, tidyr
