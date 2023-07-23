@@ -13,7 +13,7 @@ install.packages("RTutor",repos = c("https://skranz-repo.github.io/drat/",getOpt
 if (!require(devtools))
   install.packages("devtools")
 
-devtools::install_github("JanaRuss/RTutorAirPollCrime")
+devtools::install_github("JanaRuss/RTutorAirPollutionCriminalActivity")
 ```
 
 ## 2. Show and work on the problem set
