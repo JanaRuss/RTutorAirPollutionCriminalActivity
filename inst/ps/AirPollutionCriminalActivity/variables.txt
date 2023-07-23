@@ -1,0 +1,28 @@
+orgvar | var | descr
+
+id | id | a unique identification number assigned to each crime, ensuring individual crime incidents can be distinguished.
+date | date | the date on which the crime occurred, allowing for temporal analysis.
+primarytype | primarytype | the primary category of the crime, providing information about the nature of the offense.
+description | description | a brief description of the crime is provided, offering additional details about the incident.
+locationdescription | | This column describes the location where the crime took place, shedding light on the specific setting or environment.
+arrest | arrest | a binary variable that indicates whether an arrest was made in connection with the crime.
+domestic | domestic | a binary variable that indicates whether the crime occurred in a domestic setting.
+fbicode | fbicode | denotes the FBI code associated with the crime, which can offer further classification and categorization.
+year | year | specifies the year in which the crime was committed, facilitating temporal analysis at a broader level.
+latitude | latitude | provides the geographic coordinates of the crime location, enabling spatial analysis and mapping.
+longitude | longitude | provides the geographic coordinates of the crime location, enabling spatial analysis and mapping.
+violent | violent |  a binary indicators of the type of crime. The columns contain TRUE or FALSE values.
+property | property | a binary indicators of the type of crime. The columns contain TRUE or FALSE values. 
+category | crime_category | represents the crime categories `violent` or `property`.  
+avg24hr_pm10_derived | average_24hr_pm10_derived | Indicates the derived average 24-hour PM10 concentration measured during that particular date.
+pm10_resid | pm10_residual | Represents the residual value associated with the PM10 measurement.
+wind_power_dir_avg | wind_power_direction_average | Represents the average wind power direction measured during that particular date. The values are expressed in degrees.
+power_norm | wind_power_normalized | Indicates the normalized wind power value associated with the measurement / proportional to norm of net power vector (speed^3), normalized by 1000. 
+wind_speed | wind_speed | represents the wind speed vector (m/s) for the polar plots.
+maxTempBins | maxTemperature_bins |represents the maximum temperature (°C) categorized into bins.
+dewPointBins | dewPoint_bins |represents dew points (°C) categorized into bins.
+valuePRCP_MIDWAY| precipitation_value_MIDWAY | represents the precipitation value at Midway City (mm).
+sealevel_pressure_avg| sealevel_pressure_avg |the average air pressure (hpa).
+avg_sky_cover| avg_sky_cover |Cloud cover sunrise to sunset (%).
+avg_wind_speed | avg_wind_speed | the average wind speed (m/s). 
+
